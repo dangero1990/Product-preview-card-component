@@ -121,9 +121,6 @@ button :hover{
 }
 
 @media (max-width: 400px) {
-    body {
-        font-size: 1.6em;
-    }
 
     .content-container {
         display: flex;
@@ -147,12 +144,11 @@ button :hover{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 40%;
     }
 
     .product-details {
         display: flex;
-        height: 60%;
+        height: min-content;
         flex-direction: column;
         flex: 1;
     } 
